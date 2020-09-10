@@ -1,10 +1,13 @@
 import React from "react";
 import "../css/Sidebar.css";
+import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h1>I am the sidebar</h1>
+      <div className="sidebar__header"></div>
+      <div className="sidebar__headerRight"></div>
+      <DonutLargeIcon />
     </div>
   );
 }
