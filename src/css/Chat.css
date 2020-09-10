@@ -25,3 +25,34 @@
 .chat__headerInfo > p {
   color: gray;
 }
+
+.chat__body {
+  flex: 1;
+  background-image: url("https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png");
+  background-repeat: repeat;
+  background-position: repeat;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.chat__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.chat__timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat__name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
